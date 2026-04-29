@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI';
+    margin:0;
+    background: linear-gradient(135deg,#74ebd5,#ACB6E5);
+}
+
+/* Navbar */
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#2c3e50;
+    color:white;
+    padding:12px;
+}
+
+.nav-logo {
+    display:flex;
+    align-items:center;
+}
+
+.nav-logo img {
+    width:35px;
+    margin-right:8px;
+    border-radius:50%;
+}
+
+.nav-btn {
+    background:#3498db;
+    padding:6px 12px;
+    border-radius:6px;
+    color:white;
+    margin-left:8px;
+    text-decoration:none;
+}
+
+.logout-btn {
+    background:#e74c3c;
+}
+
+/* Form */
+.form-box {
+    width:90%;
+    max-width:320px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.logo-center {
+    display:block;
+    margin:auto;
+    width:60px;
+}
+
+/* Inputs */
+input,select {
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* Heading */
+.container h2 {
+    text-align:center;
+    margin-top:20px;
+}
+.container p {
+    text-align:center;
+    margin-bottom:15px;
+    color:#555;
+}
+
+/* Grid */
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+/* Card */
+.card {
+    width:200px;
+    margin:10px;
+    padding:12px;
+    background:white;
+    border-radius:10px;
+    text-align:center;
+}
+
+/* Button */
+.btn {
+    background:#27ae60;
+    color:white;
+    padding:8px;
+    border-radius:6px;
+    border:none;
+}
+
+/* Search input styling */
+form input[type="text"] {
+    outline: none;
+}
+
+form input[type="text"]:focus {
+    border-color: #3498db;
+}
+
+/* Address popup */
+.address-popup {
+    display:none;
+    background:white;
+    padding:15px;
+    width:250px;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+/* Links */
+.form-box a {
+    text-decoration:none;
+    font-weight:bold;
+    color:#3498db;
+}
+
+/* Admin spacing fix */
+.container {
+    padding:20px;
+}
+
+/* Improve form spacing */
+.form-box {
+    margin-bottom:30px;
+}
+
+/* Better card look */
+.card {
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover {
+    transform:scale(1.05);
+}
+
+
+/* Mobile */
+@media(max-width:600px){
+    .card {
+        width:45%;
+    }
+}
