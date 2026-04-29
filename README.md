@@ -3,6 +3,8 @@
 ## 📌 Overview
 HealthKart is a role-based web application designed to simplify the process of ordering medicines online. It provides a user-friendly interface for customers to browse, search, and purchase medicines, along with an admin panel for efficient inventory management.
 
+🔗 **Live Demo:** https://healthkart.infinityfreeapp.com/login.php
+
 ## 🚀 Features
 
 ### 👤 Customer Module
